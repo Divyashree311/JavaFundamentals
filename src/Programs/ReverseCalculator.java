@@ -1,4 +1,4 @@
-package controlstatements;
+package Programs;
 
 public class ReverseCalculator {
     public static void main(String[] args) {
@@ -25,8 +25,8 @@ public class ReverseCalculator {
         System.out.println("---using while loop---");
         while (number != 0 ){
             reminder= number % 10;
-           reverseNumber = reminder + 10 * reverseNumber;
-           number = number/10;
+            reverseNumber = reminder + 10 * reverseNumber;
+            number = number/10;
         }
         System.out.println(reverseNumber);
 
@@ -45,8 +45,8 @@ public class ReverseCalculator {
 
         System.out.println("---using do while loop---");
         do{
-           int reminder2= number2 % 10;
-           reverseNumber2 = reminder2 + 10 * reverseNumber2;
+            int reminder2= number2 % 10;
+            reverseNumber2 = reminder2 + 10 * reverseNumber2;
             number2 = number2/10;
         }while (number2 != 0);
         System.out.println(reverseNumber2);
