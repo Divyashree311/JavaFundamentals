@@ -1,6 +1,6 @@
-package Programs;
+package programs;
 
-public class ReverseCalculator {
+public class ReverseNumber {
     public static void main(String[] args) {
         int number = 1234;
         int reverseNumber=0;

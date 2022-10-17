@@ -1,4 +1,4 @@
-package Programs;
+package programs;
 
 import java.util.LinkedList;
 

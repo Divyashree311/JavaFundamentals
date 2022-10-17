@@ -1,4 +1,4 @@
-package Programs;
+package programs;
 
 /*
 Armstrong number is a number which is sum of cube of the given digits.
