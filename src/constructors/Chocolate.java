@@ -6,7 +6,7 @@ public class Chocolate {
     private double weight;
     private int cost;
 
-    Chocolate(){
+     Chocolate(){
         barCode = 101189378963l;
         name = "Cadbury";
         weight = 12.0;
