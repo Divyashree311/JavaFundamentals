@@ -1,4 +1,6 @@
-public class LuckyNumber {
+package programs;
+
+public class LuckyProgramMethod3 {
 	public static void main(String[] args) {
 		int num = 1939;
 		luckyNumberChecker(num);
