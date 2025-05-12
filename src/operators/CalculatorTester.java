@@ -7,5 +7,11 @@ public class CalculatorTester {
         System.out.println("Subtraction : " + calculator.subtraction());
         System.out.println("Multiplication : " + calculator.multiplication());
         System.out.println("Division: " + calculator.division());
+
+//        Integer integer ;
+//        Integer.parseInt(123);
+//        Integer.valueOf()
     }
+
+    //literal and new keyword
 }

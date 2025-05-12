@@ -7,6 +7,7 @@ import java.util.Set;
 public class SetExample {
     public static void main(String[] args) {
         Set<Integer> set1 = new HashSet<>();
+
         set1.addAll(Arrays.asList(new Integer[]{1,2,3,4,5,6,7,8,9,9,0}));
 
         Set<Integer> set2 = new HashSet<>();
