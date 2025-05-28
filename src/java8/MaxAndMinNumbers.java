@@ -1,7 +1,10 @@
 package java8;
 
+import javax.swing.text.html.Option;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class MaxAndMinNumbers {
@@ -17,5 +20,10 @@ public class MaxAndMinNumbers {
       int max2 =   list.stream().max(Integer::compare).get();
         System.out.println(max2);
 
+        int max3 = list.stream().max(Comparator.naturalOrder()).get();
+        System.out.println(max3);
+
+//        max3.ifPresentOrElse(val -> System.out.println("Nth max is " + val),
+//                () -> System.out.println("not enough elements"));
     }
 }

@@ -3,6 +3,7 @@ package java8;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -45,5 +46,10 @@ public class CountOccuranceCharacter {
                 ))
                .forEach((ch,count) -> System.out.println(ch +":" + count));
 
+  Optional<Map.Entry<String,Long>> freq =    map.entrySet().stream()
+               .max((Map.Entry.comparingByValue()))
+               ;
+
+  freq.ifPresent(entry -> System.out.println(entry.getKey() + entry.getValue()));
     }
 }
